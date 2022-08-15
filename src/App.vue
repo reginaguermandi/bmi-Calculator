@@ -13,11 +13,11 @@
       <input id="height" type="number" v-model="height">
     </div>
 
-    <button class="btn-calculation" @click="calculateImc">Calcular</button>
+    <button class="btn-calculation" @click="handleCalculateBtn">Calcular</button>
 
     <div class="result">
       <p class="imc-result"></p>
-      <p class="body-type">Peso normal</p>
+      <p class="body-type"></p>
     </div>
   </div>
 </template>
@@ -31,13 +31,18 @@ export default {
       height: 0
     }
   },
-  methods: {
+  computed: {
     calculateImc: function () {
-
+      let imc = (this.weight / (this.height * this.height)).toFixed(2);
+      return imc
+    }
+  },
+  methods: {
+    handleCalculateBtn: function () {
+      console.log(this.calculateImc)
     }
   }
 }
-
 
 </script>
 
