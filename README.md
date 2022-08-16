@@ -13,8 +13,8 @@ My first project in Vue.js, this is a calculator measure of body fat based on he
 
 ### Screenshot
 
-![Inicial State](./src/assets/print-inicial-state.png.jpg)
-![Active State](./src/assets/print-used-state.png-state.png.jpg)
+![inicial-state](https://user-images.githubusercontent.com/91343634/184955170-0ca886e8-138f-4c0a-b7a3-7de997395d04.png)
+![active-state](https://user-images.githubusercontent.com/91343634/184955189-0266d2fa-8150-4692-9a83-d2b2aec111a5.png)
 
 ### Built with
 
